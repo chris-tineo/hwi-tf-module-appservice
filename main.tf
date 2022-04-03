@@ -3,4 +3,5 @@ resource "azurerm_service_plan" "service_plan" {
   resource_group_name = var.rsrc_rg
   location            = var.rsrc_location
   sku_name            = var.rsrc_sku
+  os_type             = var.rsrc_os_type
 }
