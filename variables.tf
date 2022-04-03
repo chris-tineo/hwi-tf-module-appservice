@@ -13,3 +13,7 @@ variable "rsrc_location" {
 variable "rsrc_sku" {
   type = string
 }
+
+variable "rsrc_os_type" {
+  type = string
+}
